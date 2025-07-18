@@ -1,8 +1,8 @@
-# MIAMI TRAFFIC APP 🚦
+# Miami Traffic Accident Pipeline
 
 An automated data pipeline and analytics project that scrapes Miami-Dade traffic incident data hourly and loads it into Google BigQuery for analysis and visualization.
 
-## 📌 Overview
+## Overview
 
 This project monitors real-time traffic incidents in Miami-Dade County, Florida. It is designed to support transportation analysis and incident trends by storing live streaming data provided by the Miami-Dade Police Department.
 
@@ -14,7 +14,7 @@ Key features:
 - Future plans for visualization dashboards and predictive modeling
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.13** with `pandas`, `requests`, `google-cloud-bigquery`
 - **Google Cloud Platform**:
@@ -25,7 +25,7 @@ Key features:
 - **Version Control**: Git + GitHub
 
 
-## 🙌 Author
+## Author
 
 **Steven Villalon**  
 MBA | Future Data Scientist | Miami-Based  
