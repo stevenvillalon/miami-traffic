@@ -25,6 +25,22 @@ Key features:
 - **Version Control**: Git + GitHub
 
 
+## Data Dictionary
+
+| Column Name  | Data Type  | Description                                                          |
+| ------------ | ---------- | -------------------------------------------------------------------- |
+| `CreateTime` | `DATETIME` | Date and time the incident was recorded (in UTC, no timezone offset) |
+| `Signal`     | `STRING`   | Type or category of the traffic event or signal                      |
+| `Address`    | `STRING`   | Address or intersection where the event occurred                     |
+| `Location`   | `STRING`   | Additional description of the location (if available)                |
+| `Grid`       | `STRING`   | Grid or zone identifier used by local authorities                    |
+| `MapX`       | `FLOAT64`  | X coordinate on the map (projected spatial reference)                |
+| `MapY`       | `FLOAT64`  | Y coordinate on the map (projected spatial reference)                |
+| `Longitude`  | `FLOAT64`  | Longitude in decimal degrees (WGS84)                                 |
+| `Latitude`   | `FLOAT64`  | Latitude in decimal degrees (WGS84)                                  |
+| `TimeLoaded` | `DATETIME` | Timestamp of when the record was inserted into the main table (UTC)  |
+
+
 ## Author
 
 **Steven Villalon**  
